@@ -8,9 +8,9 @@ describe('HeroSearchComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HeroSearchComponent ]
+      declarations: [HeroSearchComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(HeroSearchComponent);
     component = fixture.componentInstance;
