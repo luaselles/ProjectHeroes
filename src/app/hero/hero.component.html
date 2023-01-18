@@ -1,0 +1,23 @@
+<!-- Navegação -->
+<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+    <ul class="navbar-nav">
+        <a class="navbar-brand" href="#">Project</a>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/hero/dashboard">Dashboard</a>
+        </li>
+        <li class="nav-item">
+        <li><a class="nav-link" routerLink="/hero">Heroes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/hero/cadastroherois">Cadastrar Herois</a>
+        </li>
+        <li class="nav-item">
+            <button type="button" (click)="logout()" class="btn btn-info">Logout</button>
+        </li>
+    </ul>
+</nav>
+
+<div class="container-fluid jumbotron">
+    <router-outlet></router-outlet>
+    <app-messages></app-messages>
+</div>

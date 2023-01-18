@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/tsconfig*": true,
+			"**/.gitignore": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/bin": true,
+			"**/obj": true,
+			"**/Thumbs.db": true,
+			"**/.vscode": true,
+			"**/.angular": true,
+			"**/node_modules": true,
+			"**/*.code-workspace": true,
+		},
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "msedge",
+				"request": "launch",
+				"name": "Debug Angular",
+				"url": "http://localhost:4200",
+			}
+		]
+	}
+}
